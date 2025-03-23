@@ -1,19 +1,12 @@
-nginx
-redis:alpine
-google/cadvisor
-registry.k8s.io/kube-apiserver
-registry.k8s.io/kube-controller-manager
-registry.k8s.io/kube-scheduler
-registry.k8s.io/etcd
-registry.k8s.io/kube-proxy
-registry.k8s.io/coredns/coredns
-registry.k8s.io/metrics-server/metrics-server
-#Calico
-docker.io/calico/cni
-docker.io/calico/node
-docker.io/calico/kube-controllers
-#Flannel
-docker.io/flannel/flannel
-#Nginx Ingress
-registry.k8s.io/ingress-nginx/controller
-registry.k8s.io/ingress-nginx/kube-webhook-certgen
+# 控制平面组件
+registry.k8s.io/kube-apiserver:v1.29.0
+registry.k8s.io/kube-controller-manager:v1.29.0
+registry.k8s.io/kube-scheduler:v1.29.0
+registry.k8s.io/kube-proxy:v1.29.0
+registry.k8s.io/etcd:3.5.10-0
+
+# CoreDNS
+registry.k8s.io/coredns/coredns:v1.11.1
+
+# Metrics Server
+registry.k8s.io/metrics-server/metrics-server:v0.7.0
