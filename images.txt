@@ -1,13 +1,5 @@
-# Calico (v3.27.0)
-docker.io/calico/cni:v3.27.0
-docker.io/calico/node:v3.27.0
-docker.io/calico/kube-controllers:v3.27.0
-
-# Flannel (v0.23.0)
-docker.io/flannel/flannel:v0.23.0
-
-registry.k8s.io/ingress-nginx/controller:v1.9.0
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231011
+registry.k8s.io/ingress-nginx/controller:v1.12.0
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20240410-helm-chart-4.12.0
 
 registry.k8s.io/kubernetes-dashboard/kubernetes-dashboard:v2.7.1
 registry.k8s.io/kubernetes-dashboard/metrics-scraper:v1.0.10
