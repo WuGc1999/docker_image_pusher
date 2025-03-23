@@ -1,2 +1,19 @@
 nginx
 redis:alpine
+google/cadvisor
+registry.k8s.io/kube-apiserver
+registry.k8s.io/kube-controller-manager
+registry.k8s.io/kube-scheduler
+registry.k8s.io/etcd
+registry.k8s.io/kube-proxy
+registry.k8s.io/coredns/coredns
+registry.k8s.io/metrics-server/metrics-server
+#Calico
+docker.io/calico/cni
+docker.io/calico/node
+docker.io/calico/kube-controllers
+#Flannel
+docker.io/flannel/flannel
+#Nginx Ingress
+registry.k8s.io/ingress-nginx/controller
+registry.k8s.io/ingress-nginx/kube-webhook-certgen
