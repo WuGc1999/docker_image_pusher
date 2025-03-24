@@ -1,5 +1,1 @@
-registry.k8s.io/ingress-nginx/controller:v1.12.0
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:4.12.0
-
-registry.k8s.io/kubernetes-dashboard/kubernetes-dashboard:v2.7.1
-registry.k8s.io/kubernetes-dashboard/metrics-scraper:v1.0.10
+gcr.io/cadvisor/cadvisor
