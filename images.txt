@@ -1,1 +1,9 @@
-portainer/agent:2.19.5
+prom/alertmanager:v0.21.0  
+# 最新稳定版为 v0.27.0
+prom/prometheus:v2.20.1    
+# 最新稳定版为 v2.51.2
+prom/node-exporter:v1.0.1  
+# 最新稳定版为 v1.8.1
+prom/pushgateway:v1.2.0    
+# 最新稳定版为 v1.7.0
+jimmidyson/configmap-reload:v0.4.0
